@@ -30,7 +30,6 @@ sudo dnf install -y \
   rust \
   cargo \
   rust-analyzer \
-  jdtls \
   zip \
   unzip
 
