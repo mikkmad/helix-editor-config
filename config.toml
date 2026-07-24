@@ -1,0 +1,33 @@
+theme = "base16_transparent"
+
+[editor]
+end-of-line-diagnostics = "hint"
+line-number = "relative"
+cursorline = true
+auto-completion = true
+auto-format = true
+idle-timeout = 250
+bufferline = "multiple"
+rulers = [80, 120]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding"]
+
+[editor.file-picker]
+hidden = false
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "hint"
+
+[keys.normal]
+C-s = ":w" # Save with Ctrl+s
+C-o = ":open ~/.config/helix/config.toml"
+C-l = ":open ~/.config/helix/languages.toml"
