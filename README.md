@@ -61,7 +61,13 @@ sdk install maven
 sdk install gradle
 ```
 
-`jdtls` provides Java language server support for Helix:
+`jdtls` must be installed using [Homebrew](https://brew.sh/):
+
+```bash
+brew install jdtls
+```
+
+It provides Java language server support for Helix, including: 
 
 - code completion
 - diagnostics
