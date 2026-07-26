@@ -16,10 +16,6 @@ git clone "https://github.com/mikkmad/helix-editor-config.git" ~/.config/helix
 
 ## Installed Tools
 
-### Git
-
-Used for version control and managing projects.
-
 ### C/C++ Development
 
 The script installs:
