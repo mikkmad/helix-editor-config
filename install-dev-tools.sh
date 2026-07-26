@@ -12,7 +12,6 @@ echo "Installing Development Packages..."
 echo
 sudo dnf install -y \
   helix \
-  git \
   curl \
   wget \
   gcc \
@@ -58,7 +57,6 @@ echo "Installation and setup complete!"
 echo 
 echo "Installed:"
 echo "--> Helix Terminal Editor"
-echo "--> Git"
 echo "--> cURL"
 echo "--> wget"
 echo "--> gcc and gcc-c++"
